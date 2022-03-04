@@ -6,3 +6,4 @@
 [![C/C++ CI](https://github.com/8Vaish/M1_Test_Your_Intellect_-APP/actions/workflows/c-cpp.yml/badge.svg)](https://github.com/8Vaish/M1_Test_Your_Intellect_-APP/actions/workflows/c-cpp.yml)
 [![Build-Linux](https://github.com/8Vaish/M1_Test_Your_Intellect_-APP/actions/workflows/Build-Linux.yml/badge.svg)](https://github.com/8Vaish/M1_Test_Your_Intellect_-APP/actions/workflows/Build-Linux.yml)
 [![unity](https://github.com/8Vaish/M1_Test_Your_Intellect_-APP/actions/workflows/Unity.yml/badge.svg)](https://github.com/8Vaish/M1_Test_Your_Intellect_-APP/actions/workflows/Unity.yml)
+[![Dynamiccheck](https://github.com/8Vaish/M1_Test_Your_Intellect_-APP/actions/workflows/Dynamiccheck.yml/badge.svg)](https://github.com/8Vaish/M1_Test_Your_Intellect_-APP/actions/workflows/Dynamiccheck.yml)
