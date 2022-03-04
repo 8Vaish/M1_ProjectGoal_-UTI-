@@ -4,3 +4,4 @@
 ![CodigaBadeges](https://api.codiga.io/project/31274/status/svg)
 [![Codeac](https://static.codeac.io/badges/2-454726198.svg "Codeac")](https://app.codeac.io/github/8Vaish/M1_Test_Your_Intellect_-APP)
 [![C/C++ CI](https://github.com/8Vaish/M1_Test_Your_Intellect_-APP/actions/workflows/c-cpp.yml/badge.svg)](https://github.com/8Vaish/M1_Test_Your_Intellect_-APP/actions/workflows/c-cpp.yml)
+[![Build-Linux](https://github.com/8Vaish/M1_Test_Your_Intellect_-APP/actions/workflows/Build-Linux.yml/badge.svg)](https://github.com/8Vaish/M1_Test_Your_Intellect_-APP/actions/workflows/Build-Linux.yml)
