@@ -13,11 +13,38 @@ else
    endif
 endif
 
-build:
-	gcc $(SRC) -o $(call FixPath,$(PROJ_NAME).$(EXEC)) -lm
+ 
+INC=-IInclude\
+-Iunity\
 
-run: build
+Build : $(SRC) 
+	gcc $(SRC) $(INC) -o $(call FixPath,$(PROJ_NAME).$(EXEC)) -lm
+
+
+build_test : 
+	gcc $(TEST_SRC) $(INC) -o $(call FixPath,$(PROJ_NAME).$(EXEC)) -lm
+
+run : Build
 	./$(call FixPath,$(PROJ_NAME).$(EXEC))
 
-clean:
-	$(RM) $(call FixPath,$(PROJ_NAME).$(EXEC))
+run_test : build_test
+	./$(call FixPath,$(PROJ_NAME).$(EXEC))
+
+staticcheck : 
+	cppcheck --enable=all 3_IMPLIMENTATION
+
+dynamic_analysis : build_test
+	valgrind ./$(call FixPath,$(PROJ_NAME).$(EXEC)) 
+	
+		
+	
+coverage:
+	gcc -fprofile-arcs -ftest-coverage $(SRC) $(INC) -o $(call FixPath,$(PROJ_NAME).$(EXEC)) -lm
+	gcov -a ./$(call FixPath,$(PROJ_NAME).$(EXEC))
+
+Clean:
+	$(RM) $(call FixPath,*.out)
+
+
+
+
