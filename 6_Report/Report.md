@@ -20,6 +20,10 @@ As soon as the Program runs,the Question is displayed on the User Screen. The Us
 1. The system will provide a variety of questions leading to greater knowledge of the user.
 2. Rewards and number of correct answers will be calculated with formula used in the program.![It helps to sharpen our Brain through this  With knowledge we could win Rewards too](https://user-images.githubusercontent.com/98880241/153709299-762975bb-768e-4a42-a570-59f1e5294730.jpg)
 
+# **Structural and Behavioural Diagram**
+![Flowchart Final](https://user-images.githubusercontent.com/98880241/153709613-39893de7-7f0b-4781-9e9e-389d9df4ef4e.png)
+
+
 ![Screenshot (35)](https://user-images.githubusercontent.com/98880241/156798563-6b89edb1-bb34-4ee6-9308-2494cedfa3fb.png)
 ![Screenshot (36)](https://user-images.githubusercontent.com/98880241/156798572-b75c909b-3668-4927-a10b-d6ce9fd55165.png)
 
